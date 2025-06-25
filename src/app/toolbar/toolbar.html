@@ -1,0 +1,9 @@
+<!-- Custom events: in the parent component's template, 
+     you bind to the custom event using event 
+     binding syntax (parentheses). 
+-->
+<div class="toobar">
+    {{label()}} {{value()}} {{numero}}
+<button (click)="notifyParent()">Notificar</button>
+<a routerLink="/home">Home</a>
+</div>
